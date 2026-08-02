@@ -1,0 +1,4 @@
+interface:
+  display_name: "Web Design Kit"
+  short_description: "从页面 JSON 快照建立、更新并检查设计规范包"
+  default_prompt: "Use $web-design-kit to build or update an evidence-backed Web Design Kit from my page-snapshot.json files."

@@ -1,0 +1,23 @@
+{
+  "schema_version": "0.1",
+  "context_id": "{{SLUG}}",
+  "name": "{{NAME}}",
+  "description": "{{DESCRIPTION}}",
+  "created_at": "{{DATE}}",
+  "updated_at": "{{DATE}}",
+  "quality_profile": "genesis-reference-v1",
+  "coverage": {
+    "design_intent": "missing",
+    "semantic_color": "missing",
+    "typography": "missing",
+    "spacing_layout": "missing",
+    "border_radius": "missing",
+    "elevation": "missing",
+    "components": "missing",
+    "interaction_states": "missing",
+    "motion": "missing",
+    "imagery_iconography": "missing",
+    "guardrails": "missing"
+  },
+  "evidence": []
+}
