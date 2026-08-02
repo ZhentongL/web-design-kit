@@ -58,44 +58,6 @@ The bookmark installer lives at:
 
 Open that file in a browser once and install the collector bookmark. The collector runs in your browser and captures visible DOM structure, geometry, final computed styles, same-origin iframe content, loaded assets, scroll containers, and collection diagnostics.
 
-## Commands For Maintainers
-
-Inspect a snapshot:
-
-```bash
-python3 scripts/inspect_page_snapshot.py "/absolute/path/page-snapshot.json"
-```
-
-Inspect a snapshot and require visible state text:
-
-```bash
-python3 scripts/inspect_page_snapshot.py "/absolute/path/page-snapshot.json" --expect-text "高级筛选"
-```
-
-Scaffold a new kit:
-
-```bash
-python3 scripts/scaffold_context.py "/absolute/path/my-web-design-kit" --name "Admin Console" --description "Reusable design context for the admin console"
-```
-
-Register evidence:
-
-```bash
-python3 scripts/register_evidence.py "/absolute/path/my-web-design-kit" "/absolute/path/page-snapshot.json" --state "dashboard-default"
-```
-
-Validate a kit:
-
-```bash
-python3 scripts/check_context.py "/absolute/path/my-web-design-kit"
-```
-
-Regenerate the bookmarklet installer after editing the collector:
-
-```bash
-node scripts/generate_bookmarklet.js
-```
-
 ## Repository Structure
 
 ```text
@@ -111,3 +73,6 @@ scripts/                         Snapshot inspection, scaffolding, registry, and
 
 Snapshots may contain visible product text, DOM structure, asset URLs, and style information from authenticated pages. Review captured JSON files before sharing them. This repository contains the skill and tooling only; generated customer or product snapshots should stay outside the repository unless you intentionally publish them.
 
+## Credits
+
+The browser snapshot capture approach and collector workflow were developed by Yuqi.
