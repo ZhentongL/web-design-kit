@@ -76,3 +76,8 @@ Snapshots may contain visible product text, DOM structure, asset URLs, and style
 ## Credits
 
 The browser snapshot capture approach and collector workflow were developed by Yuqi.
+
+## License
+
+Web Design Kit is released under the [MIT License](LICENSE). See [NOTICE](NOTICE)
+for attribution details.
